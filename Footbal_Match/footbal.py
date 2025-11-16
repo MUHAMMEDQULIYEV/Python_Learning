@@ -69,26 +69,38 @@ class Defender(Player):
 
 
 class Team:
-    def __init__(
-        self,
-        name: str,
-        players: list[Player],
-        total_goals: int,
-        total_shots: int,
-        possession: float,
-    ):
+    def __init__(self, name: str, players: list[Player] = None):
         self.name = name
-        self.players = players
-        self.total_goals = total_goals
-        self.total_shots = total_shots
-        self.possession = possession
+        self.players = players if players is not None else []
+        self.total_goals = 0
+        self.total_shots = 0
+        self.possession = 0.0
 
     def add_player(self, player: Player):
-        return self.players.append(player)
+        self.players.append(player)
 
-    def calculate_team_stat(self, total_shots, total_goals):
-        self.total_goals = sum(player.goals for player in Player)
-        self.total_shots = sum(player.shots for player in Player)
+    def calculate_team_stat(self):
+        self.total_goals = sum(player.goals for player in self.players)
+        self.total_shots = sum(player.shots for player in self.players)
+
+"""  class Team:
+    def __init__(self, name: str, players: list[Player] = None):
+        self.name = name
+        self.players = players if players is not None else []
+        self.total_goals = 0
+        self.total_shots = 0
+        self.possession = 0.0
+
+    def add_player(self, player: Player):
+        self.players.append(player)
+
+    def calculate_team_stat(self):
+        self.total_goals = sum(player.goals for player in self.players)
+        self.total_shots = sum(player.shots for player in self.players)
+"""
+
+
+
 
 
 class Match:
@@ -98,16 +110,9 @@ class Match:
         self.duration = duration
         self.score = "0:0"
 
-    def simulate_match(self, team1, team2, score, duration):
+    def simulate_match(self):
         goals_team1 = random.randint(0, 5)
         goals_team2 = random.randint(0, 5)
         self.score = f"{goals_team1}:{goals_team2}"
         print(f"Match Result: {self.team1.name} {self.score} {self.team2.name}")
 
-
-class StatsAnalyzer:
-    def __init__(self, match: Match):
-        self.match = match
-
-    def calculate_possession():
-        pass
