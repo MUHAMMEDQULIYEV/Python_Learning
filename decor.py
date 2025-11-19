@@ -1,0 +1,26 @@
+"""
+in that file i want to apply my little knowledge about decorator
+
+
+"""
+
+
+def decorator_function(originial_function):
+    def wrapper_function(*args, **kwargs):
+        print(f"wrapper executed before {originial_function.__name__}.")
+        return originial_function(*args, **kwargs)
+
+    return wrapper_function
+
+
+@decorator_function
+def display():
+    print("display function run and learn this topic")
+
+
+@decorator_function
+def display_info(name, age):
+    print("display_into run   with argument ({},{})".format(name, age))
+
+
+display_info("john", 47)
