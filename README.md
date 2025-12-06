@@ -1,71 +1,118 @@
 # Python Learning
 
-A personal workspace containing Python exercises, notebooks, and small projects focused on data analysis, visualization, and beginner-to-intermediate Python programming.
+A personal workspace containing Python exercises, notebooks, and data analysis projects focused on visualization, machine learning, and data science with Python.
 
 ## Contents
 
-- **Project:** `Footbal_Match` — small project with `main.py`, `footbal.py`, and `create_db.py` (has `pyproject.toml`).
-- **Notebooks:** `JupyterNotebooks/` and course materials under `Py_DS_ML_Bootcamp-master/`.
-- **Demos & Practice:** `Python/` contains short practice scripts (`day2.py`, `day3.py`, etc.).
-- **Data Visualization:** `data_visualization/` includes a Jupyter notebook for plotting examples.
+- **Data Analysis Projects:** COVID-19 data, Democracy Index, Formula1, Spotify analytics, London/House price data
+- **Learning Projects:** Football Match database, OOP practice, network programming
+- **Notebooks:** JupyterNotebooks and comprehensive course materials (Py_DS_ML_Bootcamp-master)
+- **Practice Scripts:** Python basics and small examples
+- **Data Visualization:** Seaborn, Matplotlib, and Pandas plotting examples
 
-## Repository structure (high level)
+## Repository structure
 
-- `Footbal_Match/` — small project for learning; check `README.md` inside for details.
-- `JupyterNotebooks/` — assorted notebooks from exercises and lessons.
-- `Py_DS_ML_Bootcamp-master/` — copied course material (notebooks and examples).
-- `Python/` — short practice scripts and small examples.
-- `data_visualization/` — notebooks and examples for plotting.
+### Data Analysis Projects
+- `Covid19/` — COVID-19 data analysis and visualizations
+- `Democracy/` — Global democracy index analysis with correlation heatmaps and KDE plots
+- `Formula1/` — Formula 1 racing data exploration
+- `Spotify/` — Spotify track data processing and analysis
+- `London_House/` — London housing market data
+- `house/` — Housing price analysis
+
+### Learning & Practice Projects
+- `Footbal_Match/` — Database project with SQLite; see `README.md` inside
+- `PracticeOOP/` — Object-oriented programming exercises
+- `LearningNetworkwithpy/` — Network programming practice
+- `Project1/` — General project exercises
+
+### Course Materials & Notebooks
+- `Py_DS_ML_Bootcamp-master/` — Complete data science bootcamp material (NumPy, Pandas, ML, NLP, Deep Learning)
+- `JupyterNotebooks/` — Daily exercises and lesson notebooks
+- `data_visualization/` — Seaborn and Pandas visualization exercises
+
+### Scripts & Utilities
+- `Python/` — Python basics practice scripts (day2.py, day3.py, decorators, file I/O, etc.)
+- `dotenv/` — Environment variable practice
+- `test.py` — Quick testing script
 
 ## Getting started
 
-1. Clone the repo (if you haven't already):
-
+1. **Clone the repository:**
 ```bash
-git clone <repo-url>
+git clone https://github.com/MUHAMMEDQULIYEV/Python_Learning.git
 cd Python_Learning
 ```
 
-2. (Optional) Create and activate a virtual environment:
-
+2. **Set up Python environment:**
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-3. Install dependencies if a project folder contains a `pyproject.toml` or `requirements.txt` (for example `Footbal_Match`):
-
+3. **Install dependencies:**
 ```bash
-cd Footbal_Match
-pip install -r requirements.txt  # if present
+pip install -r requirements.txt
 ```
 
-4. Run a script or notebook. Examples:
-
+4. **Run notebooks or scripts:**
 ```bash
-python Python/day2.py
-# or run notebooks with jupyter
+# Launch Jupyter
 jupyter notebook
+
+# Or run individual scripts
+python Python/day2.py
+python Footbal_Match/main.py
 ```
 
-## Notable scripts
+## Key Projects
 
-- `Footbal_Match/main.py` — entry point for the football project (see `Footbal_Match/README.md`).
-- `create_db.py` — helper to create demo databases used by projects.
+### Data Analysis
+- **Democracy Index** (`Democracy/`) — Analyze global democracy trends with pandas and seaborn
+- **Spotify Analytics** (`Spotify/`) — Track data processing, correlation analysis, duration metrics
+- **COVID-19 Analysis** (`Covid19/`) — Pandemic data visualization and insights
+- **Formula 1** (`Formula1/`) — Racing statistics and performance analysis
+- **Housing Data** (`London_House/`, `house/`) — Real estate price analysis
 
-## Jupyter notebooks
+### Database Projects
+- **Football Match** (`Footbal_Match/`) — SQLite database with match tracking (see project README)
 
-Open `JupyterNotebooks/` or the notebooks under `Py_DS_ML_Bootcamp-master/` with Jupyter or JupyterLab to explore exercises and visualizations.
+## Technologies & Libraries
 
-## Contributing & notes
+- **Data Analysis:** pandas, numpy
+- **Visualization:** seaborn, matplotlib, plotly
+- **Machine Learning:** scikit-learn (in bootcamp materials)
+- **Database:** SQLite
+- **Deep Learning:** TensorFlow/Keras (in course materials)
+- **NLP & Big Data:** NLTK, Spark (in advanced sections)
 
-- This is a personal learning repository. Feel free to copy examples for study.
-- If you plan to add shared scripts or dependencies, add a `requirements.txt` or update `pyproject.toml` in the related folder.
+## Jupyter Notebooks
 
-## Next steps you might want
+The repository contains extensive notebook collections:
+- `JupyterNotebooks/` — daily exercises and progressive learning
+- `Py_DS_ML_Bootcamp-master/` — comprehensive bootcamp covering:
+  - Python fundamentals
+  - NumPy and Pandas
+  - Data visualization (Matplotlib, Seaborn, Plotly)
+  - Machine learning algorithms
+  - Deep learning and neural networks
+  - Natural language processing
+  - Big data with Spark
 
-- Add a top-level `requirements.txt` if you want reproducible environment across the repo.
-- Add more detailed READMEs inside larger folders (e.g., `Footbal_Match/`) describing how to run and expected outputs.
+## Learning Path
+
+1. **Basics** → `Python/` scripts + `JupyterNotebooks/`
+2. **Data Analysis** → Pandas exercises in `Py_DS_ML_Bootcamp-master/03-Python-for-Data-Analysis-Pandas/`
+3. **Visualization** → `data_visualization/` + bootcamp visualization sections
+4. **Projects** → Democracy, Spotify, COVID-19, Formula1 analyses
+5. **Advanced** → Machine learning and deep learning in bootcamp materials
+
+## Notes
+
+- Personal learning repository tracking progress in data science and Python
+- Most projects include exploratory data analysis (EDA) and visualizations
+- Datasets included or referenced in project folders
+- Many notebooks contain exercises with solutions
 
 ## Contact
 
