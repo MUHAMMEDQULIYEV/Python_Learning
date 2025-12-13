@@ -115,7 +115,7 @@ The repository contains extensive notebook collections:
 - Many notebooks contain exercises with solutions
 
 ## Contact
-
+""
 If you want help improving this repository (formatting, dependency management, CI), open an issue or ask for a review.
 
 ---
