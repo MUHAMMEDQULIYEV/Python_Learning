@@ -1,0 +1,7 @@
+setup.py
+mhgit/cli.py
+mhgit.egg-info/PKG-INFO
+mhgit.egg-info/SOURCES.txt
+mhgit.egg-info/dependency_links.txt
+mhgit.egg-info/entry_points.txt
+mhgit.egg-info/top_level.txt
