@@ -1,7 +1,7 @@
 # Python Learning
 
 A personal workspace containing Python exercises, notebooks, and data analysis projects focused on visualization, machine learning, and data science with Python.
-
+.
 ## Contents
 
 - **Data Analysis Projects:** COVID-19 data, Democracy Index, Formula1, Spotify analytics, London/House price data
