@@ -8,7 +8,7 @@ A personal workspace containing Python exercises, notebooks, and data analysis p
 - **Learning Projects:** Football Match database, OOP practice, network programming
 - **Notebooks:** JupyterNotebooks and comprehensive course materials (Py_DS_ML_Bootcamp-master)
 - **Practice Scripts:** Python basics and small examples
-- **Data Visualization:** Seaborn, Matplotlib, and Pandas plotting examples
+- **Data Visualization:** Seaborn, Matplotlib, and Pandas plotting examples.
 
 ## Repository structure
 
