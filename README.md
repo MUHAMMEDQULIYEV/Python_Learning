@@ -17,7 +17,7 @@ A personal workspace containing Python exercises, notebooks, and data analysis p
 - `Democracy/` — Global democracy index analysis with correlation heatmaps and KDE plots
 - `Formula1/` — Formula 1 racing data exploration
 - `Spotify/` — Spotify track data processing and analysis
-- `London_House/` — London housing market data
+- `London_House/` — London housing market data.
 - `house/` — Housing price analysis
 
 ### Learning & Practice Projects
