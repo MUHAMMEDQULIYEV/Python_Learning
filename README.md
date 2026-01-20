@@ -114,7 +114,7 @@ The repository contains extensive notebook collections:
 - Datasets included or referenced in project folders
 - Many notebooks contain exercises with solutions
 
-## Contact
+## Contact.
 ""
 If you want help improving this repository (formatting, dependency management, CI), open an issue or ask for a review.
 
