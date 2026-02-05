@@ -1,14 +1,14 @@
 # Python Learning
 
 A personal workspace containing Python exercises, notebooks, and data analysis projects focused on visualization, machine learning, and data science with Python.
-
+.
 ## Contents
 
 - **Data Analysis Projects:** COVID-19 data, Democracy Index, Formula1, Spotify analytics, London/House price data
 - **Learning Projects:** Football Match database, OOP practice, network programming
 - **Notebooks:** JupyterNotebooks and comprehensive course materials (Py_DS_ML_Bootcamp-master)
 - **Practice Scripts:** Python basics and small examples
-- **Data Visualization:** Seaborn, Matplotlib, and Pandas plotting examples
+- **Data Visualization:** Seaborn, Matplotlib, and Pandas plotting examples.,
 
 ## Repository structure
 
@@ -17,7 +17,7 @@ A personal workspace containing Python exercises, notebooks, and data analysis p
 - `Democracy/` — Global democracy index analysis with correlation heatmaps and KDE plots
 - `Formula1/` — Formula 1 racing data exploration
 - `Spotify/` — Spotify track data processing and analysis
-- `London_House/` — London housing market data
+- `London_House/` — London housing market data.
 - `house/` — Housing price analysis
 
 ### Learning & Practice Projects
@@ -114,7 +114,7 @@ The repository contains extensive notebook collections:
 - Datasets included or referenced in project folders
 - Many notebooks contain exercises with solutions
 
-## Contact
+## Contact.
 ""
 If you want help improving this repository (formatting, dependency management, CI), open an issue or ask for a review.
 
